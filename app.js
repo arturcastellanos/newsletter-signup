@@ -74,6 +74,9 @@ app.post('/success', (req, res) => {
     res.redirect("/")
 })
 
+app.post('/failure', (req, res) => {
+    res.redirect("/")
+})
 
 app.listen(process.env.PORT || 3000, () => {
     console.log("Server is fine. Running on port X3")
